@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Asana Timeline Holiday",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://app.asana.com/*/timeline"],
+      "css": ["styles.css"],
+      "js": ["moment.min.js", "content.js"]
+    }
+  ]
+}
